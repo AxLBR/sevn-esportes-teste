@@ -1,6 +1,6 @@
 # Sevn Esportes - Teste
 
-![preview](./src/images/preview.jpg)
+![preview](./src/images/preview.JPG)
 
 Projeto desenvolvido como teste de vaga para a Sevn.
 
