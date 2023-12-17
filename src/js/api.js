@@ -44,11 +44,13 @@ result.map((item, index) => {
     card.setAttribute('data-key', index);
     document.querySelector('.titles p:last-of-type').textContent  = 'RODADA ' + round;
     card.querySelector('.team1 img').src = `./src/images/team_shield_${newTeamAwayId}.png`;
+    card.querySelector('.team1 img').alt = `Time ${newTeamAwayId}`;
     card.querySelector('.team1 p').textContent  = item.team_away_name;
     card.querySelector('.score p:first-of-type').textContent  = item.team_away_score;
     card.querySelector('.score p:last-of-type').textContent  = item.team_home_score;
     card.querySelector('.team2 p').textContent  = item.team_home_name;
     card.querySelector('.team2 img').src = `./src/images/team_shield_${newTeamHomeId}.png`;
+    card.querySelector('.team2 img').alt = `Time ${newTeamHomeId}`;
 
     //Preenche os dados na página
     document.querySelector('.cardBody').append(card);
