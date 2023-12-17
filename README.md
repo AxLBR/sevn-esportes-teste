@@ -8,6 +8,7 @@ Projeto desenvolvido como teste de vaga para a Sevn.
 - HTML
 - CSS
 - JavaScript
+- API REST
 - Axios
 - Git/GitHub
 
