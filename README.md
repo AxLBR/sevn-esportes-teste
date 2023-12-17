@@ -10,6 +10,7 @@ Projeto desenvolvido como teste de vaga para a Sevn.
 - JavaScript
 - API REST
 - Axios
+- Responsividade
 - Git/GitHub
 
 [Clique aqui para acessar o projeto](https://axlbr.github.io/sevn-esportes-teste/)
