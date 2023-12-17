@@ -111,3 +111,7 @@ section{
 .cardModelContainer:last-of-type hr{
     display: none;
 }
+
+.btnOpacity{
+    opacity: 0.4;
+}
